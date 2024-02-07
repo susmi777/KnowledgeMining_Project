@@ -1,6 +1,12 @@
-# Header 1
-## Header 2
-### Header 3
+# Greetings!
+
+# This is my repository for Knowledge Mining class.
+
+## Weekly Agenda
+- Creating website with github
+- Creating content with RStudio
+  
+### Progress
 
 - Bulleted
 - List
