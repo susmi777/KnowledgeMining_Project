@@ -1,15 +1,13 @@
-# Greetings!
-
-# This is my repository for Knowledge Mining class.
+## Greetings!
+## This is my repository for Knowledge Mining class.
 
 ## Weekly Agenda
-- Creating website with github
-- Creating content with RStudio
+- To creat website with GitHub
+- To build website content with RStudio (Quarto). This is useful for creating website files, creating new projects, choosing new directories, editing website files, etc.
   
-### Progress
-
-- Bulleted
-- List
+## Weekly Progress
+- Completed creating website with GitHub.
+- Working on RStudio (Quarto) content.
 
 1. Numbered
 2. List
