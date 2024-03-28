@@ -9,6 +9,10 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - text: Assignments
+        menu:
+        - href: Lab01.qmd
+          text: Assignment1
 
 format: 
   html:
