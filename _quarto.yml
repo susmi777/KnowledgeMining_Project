@@ -1,17 +1,15 @@
 project:
   type: website
-  output-dir: docs
     
 website:
-  title: "Susmi Sharma"
+  title: Susmi Sharma
   navbar:
-    left:
-      - href: index.qmd
+     left:
+      - href: index.html
         text: Home
-      - about.qmd
       - text: Assignments
         menu:
-        - href: Lab01.qmd
+        - href: Lab01.html
           text: Assignment1
 
 format: 
