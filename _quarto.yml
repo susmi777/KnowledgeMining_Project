@@ -8,10 +8,9 @@ website:
       - href: index.html
         text: Home
       - text: Projects
-        menu:
-        - text: Knowledge Mining
-          - href: ProjectCode.html
-            text: Model2 Code
+        menu: 
+        - href: ProjectCode.html
+          text: Model2 Code
       - text: Assignments
         menu:
         - href: Lab01.html
