@@ -7,10 +7,16 @@ website:
      left:
       - href: index.html
         text: Home
+      - text: Knowledge Mining Project
+        menu:
+        - href: ProjectCode.html
+          text: RF_Model_2_Code
       - text: Assignments
         menu:
         - href: Lab01.html
           text: Assignment1
+        - href: Lab02.html
+          text: Assignment2
 
 format: 
   html:
