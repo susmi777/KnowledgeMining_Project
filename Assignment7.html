@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Susmi Sharma">
 
-<title>Susmi Sharma</title>
+<title>Susmi Sharma - Assignment7</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -92,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
     <a class="dropdown-item" href="./ProjectCode.html" rel="" target="">
- <span class="dropdown-text">Model Code (Knowledge Mining)</span></a>
+ <span class="dropdown-text">Model2 Code</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./DataMining_Project.pdf" rel="" target="">
@@ -167,10 +168,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#interests" id="toc-interests" class="nav-link active" data-scroll-target="#interests">Interests:</a>
-  <ul class="collapse">
-  <li><a href="#contact-me-at" id="toc-contact-me-at" class="nav-link" data-scroll-target="#contact-me-at">Contact me at:</a></li>
-  </ul></li>
+  <li><a href="#a.-what-isare-the-requirements-of-lda" id="toc-a.-what-isare-the-requirements-of-lda" class="nav-link active" data-scroll-target="#a.-what-isare-the-requirements-of-lda">a. What is/are the requirement(s) of LDA?</a></li>
+  <li><a href="#b.-how-lda-is-different-from-logistic-regression" id="toc-b.-how-lda-is-different-from-logistic-regression" class="nav-link" data-scroll-target="#b.-how-lda-is-different-from-logistic-regression">b. How LDA is different from Logistic Regression?</a></li>
+  <li><a href="#c.-what-is-roc" id="toc-c.-what-is-roc" class="nav-link" data-scroll-target="#c.-what-is-roc">c.&nbsp;What is ROC?</a></li>
+  <li><a href="#d.-what-is-sensitivity-and-specificity-which-is-more-important-in-your-opinion" id="toc-d.-what-is-sensitivity-and-specificity-which-is-more-important-in-your-opinion" class="nav-link" data-scroll-target="#d.-what-is-sensitivity-and-specificity-which-is-more-important-in-your-opinion">d.&nbsp;What is sensitivity and specificity? Which is more important in your opinion?</a></li>
+  <li><a href="#e.-from-the-following-chart-for-the-purpose-of-prediction-which-is-more-critical" id="toc-e.-from-the-following-chart-for-the-purpose-of-prediction-which-is-more-critical" class="nav-link" data-scroll-target="#e.-from-the-following-chart-for-the-purpose-of-prediction-which-is-more-critical">e. From the following chart, for the purpose of prediction, which is more critical?</a></li>
+  <li><a href="#calculate-the-prediction-error-from-the-following" id="toc-calculate-the-prediction-error-from-the-following" class="nav-link" data-scroll-target="#calculate-the-prediction-error-from-the-following">3. Calculate the prediction error from the following:</a></li>
   </ul>
 </nav>
     </div>
@@ -179,13 +182,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Susmi Sharma</h1>
+<h1 class="title">Assignment7</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Susmi Sharma </p>
+          </div>
+  </div>
     
   
     
@@ -194,22 +203,32 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>I am a doctoral student studying Developmental Language Disorder from the computational modeling prospective. I will populate this website with various projects in computational models.</p>
-<section id="interests" class="level2">
-<h2 class="anchored" data-anchor-id="interests">Interests:</h2>
-<ul>
-<li><p>Supervised Computational Modeling</p></li>
-<li><p>Unsupervised Computational Modeling</p></li>
-<li><p>Identifying the vital characteristics of the Developmental Language Disorder.</p></li>
-<li><p>Other child developmental disorders</p></li>
-</ul>
-<section id="contact-me-at" class="level3">
-<h3 class="anchored" data-anchor-id="contact-me-at">Contact me at:</h3>
-<pre><code>[sxs220550@utdallas.edu]</code></pre>
-<pre><code></code></pre>
-
-
+<section id="a.-what-isare-the-requirements-of-lda" class="level3">
+<h3 class="anchored" data-anchor-id="a.-what-isare-the-requirements-of-lda">a. What is/are the requirement(s) of LDA?</h3>
+<p>A few requirements of LDA are 1. Homogeneity of variance or homoscedascity 2. Features are Normal distribution 3. There is a linear relationship between the feature and the dependent</p>
 </section>
+<section id="b.-how-lda-is-different-from-logistic-regression" class="level3">
+<h3 class="anchored" data-anchor-id="b.-how-lda-is-different-from-logistic-regression">b. How LDA is different from Logistic Regression?</h3>
+<p>Linear Discriminant Analysis is similar to Principal Component Analysis in that it finds a discriminatory space between the classes being observed. While PCA transforms the original dataset into a set of orthogonal features called principal components by identifying the data’s direction with the maximum variance, LDA directly attempts to find a space where there is maximum separation between the classes. LDA is similar to logistic regression also in that both of them are classification techniques. However, the main difference between them maybe that logistic regression observes how each of the features independently account for the variance in the outcome variable, LDA provides the separability between the classes when all the features are combined or based on the combination of the features.</p>
+</section>
+<section id="c.-what-is-roc" class="level3">
+<h3 class="anchored" data-anchor-id="c.-what-is-roc">c.&nbsp;What is ROC?</h3>
+<p>A ROC curve is a concise visual method to summarize the results of confusion matrix for many thresholds and identify the optimal threshold value for classification. For binary classification, ROC curve is a 2-dimentional plot. The y-axis on the graph captures the sensitivity and the x-axis captures the complement of specificity (1-Specificity).</p>
+</section>
+<section id="d.-what-is-sensitivity-and-specificity-which-is-more-important-in-your-opinion" class="level3">
+<h3 class="anchored" data-anchor-id="d.-what-is-sensitivity-and-specificity-which-is-more-important-in-your-opinion">d.&nbsp;What is sensitivity and specificity? Which is more important in your opinion?</h3>
+<p>If participants who have medical or other statistical conditions are considered positive and participants who do not have such conditions are considered positive, sensitivity refers to a model’s ability to accurately assign participants with condition as positive. Another word for sensitivity is True Positive Rate.</p>
+<p>Whereas specificity refers to the model’s abilities to accurately assign participants without condition as negative. Another term for specificity is True Negative Rate. We use the complement of specificity to compute ROC and the false Positive rate or 1 – Specificity.</p>
+</section>
+<section id="e.-from-the-following-chart-for-the-purpose-of-prediction-which-is-more-critical" class="level3">
+<h3 class="anchored" data-anchor-id="e.-from-the-following-chart-for-the-purpose-of-prediction-which-is-more-critical">e. From the following chart, for the purpose of prediction, which is more critical?</h3>
+<p>Ideally, we want a model that correctly classifies all the positive scenarios as positives and designates all the other scenarios as negative. Such curve will have 100% specificity and 100% sensitivity. However, hoping to find a model and threshold such as this is not realistic. Generally, the threshold value corresponding to the point with the maximum sensitivity but with the smallest 1- specificity on the ROC curve will be the most optimal threshold value, since this threshold value results in the maximum true classification with the least false classification. There is usually a trade-off between sensitivity and specificity, and in such scenarios, we choose the threshold value depending on our need and urgency. If correctly identifying positives is the most critical task, we choose the threshold that has the maximum sensitivity score. If correctly identifying negative is more important, we put more emphasis on getting the threshold that has maximum specificity. Therefore, just looking at the chart, we cannot say one is more important than the other.</p>
+</section>
+<section id="calculate-the-prediction-error-from-the-following" class="level3">
+<h3 class="anchored" data-anchor-id="calculate-the-prediction-error-from-the-following">3. Calculate the prediction error from the following:</h3>
+<p>We would calculate prediction accuracy as the ratio of total correct by the model (9725) by total number of observation (10000). This model has 97.25 % accuracy, which implies that the error rate is 2.75%.</p>
+
+
 </section>
 
 </main> <!-- /main -->
