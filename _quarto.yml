@@ -37,11 +37,13 @@ website:
           text: Assignment7 
         - href: Assignment8.html
           text: Assignment8
+        - href: Lab_LDA01.html
+          text: LDA
   
 
 format: 
   html:
-    theme: cosmo
+    theme: Yeti
     css: styles.css
     toc: true
 
