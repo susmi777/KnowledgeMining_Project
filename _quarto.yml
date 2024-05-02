@@ -10,13 +10,34 @@ website:
       - text: Projects
         menu: 
         - href: ProjectCode.html
-          text: Model2 Code
+          text: Model Code (Knowledge Mining)
+        - href: DataMining_Project.pdf
+          text: Presentation Slides  
       - text: Assignments
         menu:
         - href: Lab01.html
-          text: Assignment1
+          text: lab01
         - href: Lab02.html
-          text: Assignment2
+          text: Lab02
+        - href: Assignment2.html
+          text: Assignment2   
+        - href: Lab03.html
+          text: Lab03
+        - href: Assignment3.html
+          text: Assignment3  
+        - href: Lab04_UL.html
+          text: Lab04
+        - href: Lab_linearregression01.html
+          text: Linear regression
+        - href: Assignment6.html
+          text: Assignment6
+        - href: Lab_logisticregression01.html
+          text: Logistic regression
+        - href: Assignment7.html
+          text: Assignment7 
+        - href: Assignment8.html
+          text: Assignment8
+  
 
 format: 
   html:
