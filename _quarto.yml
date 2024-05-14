@@ -8,11 +8,15 @@ website:
       - href: index.html
         text: Home
       - text: Projects
-        menu: 
+        menu:
         - href: ProjectCode.html
           text: Model Code (Knowledge Mining)
         - href: DataMining_Project.pdf
-          text: Presentation Slides  
+          text: Presentation Slides (Knowledge Mining)
+        - href: CVD_RandomForest.pdf
+          text: Cardiovascular Disease Paper (Knowledge Mining)
+        - href: ACN Project Presentation Final.pdf
+          text: Presentation Slides (Computational Modeling Method in BBS)  
       - text: Assignments
         menu:
         - href: Lab01.html
