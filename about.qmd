@@ -1,8 +1,0 @@
----
-title: "About"
----
-
-More about this website will be posted later in the semester.
-
-```         
-```
