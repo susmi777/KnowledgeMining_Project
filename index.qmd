@@ -1,0 +1,16 @@
+---
+title: "Susmi Sharma"
+
+mainfont: Times New Roman
+fontsize: 15pt
+---
+
+Hi Everyone!!
+
+My name is Susmi Sharma. I am a doctoral student in Dr. Julia L Evans' Child Language and Cognitive Processes Lab at the University of Texas at Dallas. Primarily, I am interested in exploring how cognitive and language abilities differ between children with developmental disorders and typically developing peers using advanced computational methodologies.
+
+![Computational Modeling](WebsitePic.png){fig-align="left"}
+
+In addition to my doctoral studies, I am on track to complete my master's in Applied Cognitive Neuroscience by May 2025. Throughout the program, I have been learning about different types of computational modeling techniques, ranging from traditional Analysis of Variance, linear regression to advanced machine learning algorithms including supervised, unsupervised and reinforcement learning algorithms. I am excited to populate this website with various projects in computational modeling. While the statistical algorithms employed and uploaded on this website may have been applied to publicly available data rather than developmental disorders due to HIPAA regulations, I believe that the techniques learned will be beneficial for analyzing data from clinical population as well.
+
+If you have any questions about any of the content uploaded on this website, please reach out to me at my [email](sxs220550@utdallas.edu) address.
