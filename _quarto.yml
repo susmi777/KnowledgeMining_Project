@@ -16,7 +16,9 @@ website:
         - href: CVD_RandomForest.pdf
           text: Cardiovascular Disease Paper (Knowledge Mining)
         - href: ACN Project Presentation Final.pdf
-          text: Presentation Slides (Computational Modeling Method in BBS)  
+          text: Presentation Slides (Computational Modeling Method in BBS)
+      - href: SusmiSharmaResume_2025.pdf
+        text: CV
       - text: Assignments
         menu:
         - href: Lab01.html
